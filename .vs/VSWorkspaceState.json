@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\assets",
+    "\\src\\components",
+    "\\src\\components\\Navbars",
+    "\\src\\layouts",
+    "\\src\\variables",
+    "\\src\\views",
+    "\\src\\views\\Typography",
+    "\\src\\views\\UserProfile"
+  ],
+  "SelectedNode": "\\src\\views\\UserProfile",
+  "PreviewInSolutionExplorer": false
+}

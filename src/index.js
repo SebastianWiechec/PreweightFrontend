@@ -18,7 +18,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { createBrowserHistory } from "history";
-import { Router, Route, Switch, Redirect } from "react-router-dom";
+import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
 import SignInSide from "views/SignIn/SignIn";
 import SignUp from "views/SignIn/Register";
 import Admin from "layouts/Admin.js";
@@ -28,13 +28,13 @@ const hist = createBrowserHistory();
 
 
 ReactDOM.render(
-  <Router history={hist}>
+  <HashRouter history={hist}>
     <Switch>
       <Route path="/admin/:id" component={Admin} />
       <Route path="/SignIn/" component={SignInSide} />
       <Route path="/Register/" component={SignUp} />
       <Redirect exact from="/" to="/SignIn/" />
     </Switch>
-  </Router>,
+  </HashRouter>,
   document.getElementById("root")
 );

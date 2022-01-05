@@ -15,6 +15,7 @@ import LockOutlinedIcon from "@material-ui/icons/LockOutlined";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import api, { API_TYPES } from "../../actions/api";
+import image from '../../assets/img/colgate.jpg';
 
 function Copyright() {
   return (
@@ -169,7 +170,7 @@ export default function SignInSide(props) {
             </Button>
             <Grid container>
               <Grid item>
-                <Link href="/Register" variant="body2">
+                <Link href="#/Register" variant="body2">
                   {"Nie masz konta? Zarejestruj się."}
                 </Link>
               </Grid>

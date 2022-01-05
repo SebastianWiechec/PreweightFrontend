@@ -61,7 +61,7 @@ export default function PlanList(props) {
   const classes = useStyles();
   const [planList1, setData] = useState([]);
   const [selectionModel, setSelectionModel] = useState();
-  const [href, setHref] = useState("/admin/Plan/0");
+  const [href, setHref] = useState("#admin/Plan/0");
   const [refresh, setRefresh] = useState(false);
 
   async function setNewPlans(plans, recipes, dones) {
@@ -218,7 +218,7 @@ export default function PlanList(props) {
               //hideFooterPagination
               onSelectionModelChange={(newSelection) => {
                 setSelectionModel(newSelection.selectionModel);
-                let address = `/admin/Plan/${newSelection.selectionModel}`;
+                let address = `#admin/Plan/${newSelection.selectionModel}`;
                 setHref(address);
               }}
               selectionModel={selectionModel}

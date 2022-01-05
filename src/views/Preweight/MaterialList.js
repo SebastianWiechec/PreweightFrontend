@@ -56,7 +56,7 @@ export default function UserList(props) {
   const classes = useStyles();
   const [userList1, setData] = useState([]);
   const [selectionModel, setSelectionModel] = useState([]);
-  const [href, setHref] = useState("/admin/MaterialProfile/0");
+  const [href, setHref] = useState("#admin/MaterialProfile/0");
 
   async function setNewMaterials(mats,) {
     let newMaterials = mats.map((material) => {
@@ -117,7 +117,7 @@ export default function UserList(props) {
               onSelectionModelChange={(newSelection) => {
                 setSelectionModel(newSelection.selectionModel);
                 // let address = `/admin/Plan/${localStorage.userId}/${newSelection.selectionModel}`;
-                let address = `/admin/MaterialProfile/${newSelection.selectionModel}`;
+                let address = `#admin/MaterialProfile/${newSelection.selectionModel}`;
                 setHref(address);
               }}
               selectionModel={selectionModel}

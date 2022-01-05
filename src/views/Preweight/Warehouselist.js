@@ -58,7 +58,7 @@ export default function Warehouselist(props) {
   const classes = useStyles();
   const [planList1, setData] = useState([]);
   const [selectionModel, setSelectionModel] = useState([]);
-  const [href, setHref] = useState("/admin/Warehouse/0");
+  const [href, setHref] = useState("#admin/Warehouse/0");
   
   async function setNewWarehouses(warehouses, materials, ) {
     
@@ -164,7 +164,7 @@ export default function Warehouselist(props) {
               //hideFooterPagination
               onSelectionModelChange={(newSelection) => {
                 setSelectionModel(newSelection.selectionModel);
-                let address = `/admin/Warehouse/${newSelection.selectionModel}`;
+                let address = `#admin/Warehouse/${newSelection.selectionModel}`;
                 setHref(address);
               }}
               selectionModel={selectionModel}

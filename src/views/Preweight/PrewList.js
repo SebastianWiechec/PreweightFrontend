@@ -60,7 +60,7 @@ export default function PrewList(props) {
   const classes = useStyles();
   const [planList1, setData] = useState([]);
   const [selectionModel, setSelectionModel] = useState([]);
-  const [href, setHref] = useState("/admin/PrewProfile/0");
+  const [href, setHref] = useState("#admin/PrewProfile/0");
   
   async function setNewWarehouses(prews, mats, recipes,  ) {
     
@@ -209,7 +209,7 @@ export default function PrewList(props) {
               //hideFooterPagination
               onSelectionModelChange={(newSelection) => {
                 setSelectionModel(newSelection.selectionModel);
-                let address = `/admin/PrewProfile/${newSelection.selectionModel}`;
+                let address = `#admin/PrewProfile/${newSelection.selectionModel}`;
                 setHref(address);
               }}
               selectionModel={selectionModel}

@@ -55,7 +55,7 @@ export default function RecipeList(props) {
   const classes = useStyles();
   const [userList1, setData] = useState([]);
   const [selectionModel, setSelectionModel] = useState([]);
-  const [href, setHref] = useState("/admin/RecipeProfile/0");
+  const [href, setHref] = useState("#admin/RecipeProfile/0");
 
   async function setNewMaterials(recipes,) {
     let newRecipes = recipes.map((recipe) => {
@@ -112,7 +112,7 @@ export default function RecipeList(props) {
               //hideFooterPagination
               onSelectionModelChange={(newSelection) => {
                 setSelectionModel(newSelection.selectionModel);
-                let address = `/admin/RecipeProfile/${newSelection.selectionModel}`;
+                let address = `#admin/RecipeProfile/${newSelection.selectionModel}`;
                 setHref(address);
               }}
               selectionModel={selectionModel}

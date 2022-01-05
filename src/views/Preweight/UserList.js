@@ -56,7 +56,7 @@ export default function UserList(props) {
   const classes = useStyles();
   const [userList1, setData] = useState([]);
   const [selectionModel, setSelectionModel] = useState([]);
-  const [href, setHref] = useState(`/admin/userlist/${localStorage.userId}`);
+  const [href, setHref] = useState(`#admin/userlist/${localStorage.userId}`);
 
   async function setNewUsers(users,) {
     let newUsers = users.map((user) => {
@@ -125,7 +125,7 @@ export default function UserList(props) {
               //hideFooterPagination
               onSelectionModelChange={(newSelection) => {
                 setSelectionModel(newSelection.selectionModel);
-                let address = `/admin/user/${newSelection.selectionModel}`;
+                let address = `#admin/user/${newSelection.selectionModel}`;
                 setHref(address);
               }}
               selectionModel={selectionModel}

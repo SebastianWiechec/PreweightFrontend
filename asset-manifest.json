@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Nawazalnia/static/css/main.90d2426e.chunk.css",
+    "main.js": "/Nawazalnia/static/js/main.ba1bce00.chunk.js",
+    "main.js.map": "/Nawazalnia/static/js/main.ba1bce00.chunk.js.map",
+    "runtime-main.js": "/Nawazalnia/static/js/runtime-main.62732858.js",
+    "runtime-main.js.map": "/Nawazalnia/static/js/runtime-main.62732858.js.map",
+    "static/css/2.121b3ca3.chunk.css": "/Nawazalnia/static/css/2.121b3ca3.chunk.css",
+    "static/js/2.f97dbca8.chunk.js": "/Nawazalnia/static/js/2.f97dbca8.chunk.js",
+    "static/js/2.f97dbca8.chunk.js.map": "/Nawazalnia/static/js/2.f97dbca8.chunk.js.map",
+    "index.html": "/Nawazalnia/index.html",
+    "static/css/2.121b3ca3.chunk.css.map": "/Nawazalnia/static/css/2.121b3ca3.chunk.css.map",
+    "static/css/main.90d2426e.chunk.css.map": "/Nawazalnia/static/css/main.90d2426e.chunk.css.map",
+    "static/js/2.f97dbca8.chunk.js.LICENSE.txt": "/Nawazalnia/static/js/2.f97dbca8.chunk.js.LICENSE.txt",
+    "static/js/main.ba1bce00.chunk.js.LICENSE.txt": "/Nawazalnia/static/js/main.ba1bce00.chunk.js.LICENSE.txt",
+    "static/media/CP_logo.66c0f011.png": "/Nawazalnia/static/media/CP_logo.66c0f011.png",
+    "static/media/colgate.31c337d1.jpg": "/Nawazalnia/static/media/colgate.31c337d1.jpg",
+    "static/media/sidebar-2.04daa341.jpg": "/Nawazalnia/static/media/sidebar-2.04daa341.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.62732858.js",
+    "static/css/2.121b3ca3.chunk.css",
+    "static/js/2.f97dbca8.chunk.js",
+    "static/css/main.90d2426e.chunk.css",
+    "static/js/main.ba1bce00.chunk.js"
+  ]
+}

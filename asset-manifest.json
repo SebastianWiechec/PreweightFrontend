@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PreweightFrontend/static/css/main.90d2426e.chunk.css",
-    "main.js": "/PreweightFrontend/static/js/main.ba1bce00.chunk.js",
-    "main.js.map": "/PreweightFrontend/static/js/main.ba1bce00.chunk.js.map",
+    "main.js": "/PreweightFrontend/static/js/main.346f23ae.chunk.js",
+    "main.js.map": "/PreweightFrontend/static/js/main.346f23ae.chunk.js.map",
     "runtime-main.js": "/PreweightFrontend/static/js/runtime-main.d1b1aba6.js",
     "runtime-main.js.map": "/PreweightFrontend/static/js/runtime-main.d1b1aba6.js.map",
     "static/css/2.121b3ca3.chunk.css": "/PreweightFrontend/static/css/2.121b3ca3.chunk.css",
@@ -12,7 +12,7 @@
     "static/css/2.121b3ca3.chunk.css.map": "/PreweightFrontend/static/css/2.121b3ca3.chunk.css.map",
     "static/css/main.90d2426e.chunk.css.map": "/PreweightFrontend/static/css/main.90d2426e.chunk.css.map",
     "static/js/2.c378945f.chunk.js.LICENSE.txt": "/PreweightFrontend/static/js/2.c378945f.chunk.js.LICENSE.txt",
-    "static/js/main.ba1bce00.chunk.js.LICENSE.txt": "/PreweightFrontend/static/js/main.ba1bce00.chunk.js.LICENSE.txt",
+    "static/js/main.346f23ae.chunk.js.LICENSE.txt": "/PreweightFrontend/static/js/main.346f23ae.chunk.js.LICENSE.txt",
     "static/media/CP_logo.66c0f011.png": "/PreweightFrontend/static/media/CP_logo.66c0f011.png",
     "static/media/colgate.31c337d1.jpg": "/PreweightFrontend/static/media/colgate.31c337d1.jpg",
     "static/media/sidebar-2.04daa341.jpg": "/PreweightFrontend/static/media/sidebar-2.04daa341.jpg"
@@ -22,6 +22,6 @@
     "static/css/2.121b3ca3.chunk.css",
     "static/js/2.c378945f.chunk.js",
     "static/css/main.90d2426e.chunk.css",
-    "static/js/main.ba1bce00.chunk.js"
+    "static/js/main.346f23ae.chunk.js"
   ]
 }

@@ -72,14 +72,10 @@ export default function RaportWykonanych(props) {
     setState({
       [name]: event.target.value,
     });
-    let toFilter = planList1;
-    if (filterPlans.length!=0){toFilter = filterPlans;}
-    else{
-      toFilter = planList1;
-    }
+
     if (name == "date1") {
       if (event.target.value != 0) {
-        let filtredPlans = toFilter.filter(
+        let filtredPlans = planList1.filter(
           (x) => x.date1 == event.target.value
         );
         setFilterPlans(filtredPlans);
@@ -89,7 +85,7 @@ export default function RaportWykonanych(props) {
     }
     if (name == "shift1") {
       if (event.target.value != 0) {
-        let filtredPlans = toFilter.filter(
+        let filtredPlans = planList1.filter(
           (x) => x.shift1 == event.target.value
         );
         setFilterPlans(filtredPlans);
